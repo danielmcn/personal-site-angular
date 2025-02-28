@@ -9,6 +9,14 @@
 @colour_border_heading: @colour_text_heading;
 @colour_shadow_heading: @colour_text_content;
 
+/*
+TODO: Add custom font-face
+@font_face_red_alert: {
+	src: url('/public/fonts/red_alert/redalert.ttf');
+	font-family: 'Red Alert';
+}
+	*/
+
 // Very important
 @font_family_heading: 'Comic Sans MS', 'Comic Sans', cursive; // Just for fun ;) <-- Note: this comment suggested by VS Code. Too good not to include.
 @font_family_body: 'MS Sans Serif', Tahoma, Geneva, sans-serif;
@@ -61,6 +69,8 @@ a {
 	background-color: @colour_background_content;
 }
 .navbar {
+	position: fixed;
+	width: 100%;
 	background-color: @colour_background_heading;
     font-family: @font_family_heading;
 	padding: 10px;

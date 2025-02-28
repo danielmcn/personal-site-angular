@@ -1,10 +1,12 @@
 <main class="main">
   <div class="navbar">
+    <!--todo: auto-populate based on the components registered-->
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#book-recommendations">Book Recommendations</a>
-    <a href="#podcast-recommendations">Podcast Recommendations</a>
-    <a href="#volunteering">Volunteering</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#recommendations">Content Recommendations</a>
+    <a href="#socials">Socials</a>
+    <!--<a href="#volunteering">Volunteering</a>-->
   </div>
   
   <div class="container">
@@ -14,14 +16,19 @@
     <div id="about" class="section">
       <app-about></app-about>
     </div>
-    <div id="book-recommendations" class="section">
-      <app-book-recommendations></app-book-recommendations>
+    <div id="certifications" class="section">
+      <app-certifications></app-certifications>
     </div>
-    <div id="podcast-recommendations" class="section">
-      <app-podcast-recommendations></app-podcast-recommendations>
+    <div id="recommendations" class="section">
+      <app-recommendations></app-recommendations>
     </div>
+    <!--
     <div id="volunteering" class="section">
       <app-volunteering></app-volunteering>
+    </div>
+    -->
+    <div id="socials" class="section">
+      <app-socials></app-socials>
     </div>
   </div>
 </main>
@@ -31,39 +38,3 @@
 </footer>
 
 <router-outlet />
-
-<!--
-    <header>
-      <h1>Professional Profile</h1>
-      <p>Welcome to my professional profile website!</p>
-    </header>
-    <section id="book-recommendations">
-      <h2>Book Recommendations</h2>
-      <div class="gallery">
-        <img src="assets/images/book1.jpg" alt="Book 1">
-        <img src="assets/images/book2.jpg" alt="Book 2">
-        <img src="assets/images/book3.jpg" alt="Book 3">
-      </div>
-    </section>
-    <section id="podcast-recommendations">
-      <h2>Podcast Recommendations</h2>
-      <div class="gallery">
-        <img src="assets/images/podcast1.jpg" alt="Podcast 1">
-        <img src="assets/images/podcast2.jpg" alt="Podcast 2">
-      </div>
-    </section>
-    <section id="volunteering">
-      <h2>Volunteering</h2>
-      <div class="gallery">
-        <img src="assets/images/volunteering1.jpg" alt="Volunteering 1">
-        <img src="assets/images/volunteering2.jpg" alt="Volunteering 2">
-      </div>
-    </section>
-    <footer>
-      <p>Contact me:</p>
-      <img src="assets/icons/email-icon.png" alt="Email">
-      <img src="assets/icons/phone-icon.png" alt="Phone">
-      <img src="assets/icons/linkedin-icon.png" alt="LinkedIn">
-    </footer>
-  </div>
-  -->
