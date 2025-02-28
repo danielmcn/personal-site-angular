@@ -1,1 +1,98 @@
-/* You can add global styles to this file, and also import other style files */
+@colour_text_content: #000;
+@colour_text_heading: #fff;
+@colour_text_reference: #0000ee;
+
+@colour_background_page: #008080;
+@colour_background_heading: #000080;
+@colour_background_content: #c0c0c0;
+
+@colour_border_heading: @colour_text_heading;
+@colour_shadow_heading: @colour_text_content;
+
+// Very important
+@font_family_heading: 'Comic Sans MS', 'Comic Sans', cursive; // Just for fun ;) <-- Note: this comment suggested by VS Code. Too good not to include.
+@font_family_body: 'MS Sans Serif', Tahoma, Geneva, sans-serif;
+
+
+body {
+	background-color: @colour_background_page;
+	color: @colour_text_content;
+	font-family: @font_family_body;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	color: @colour_text_heading;
+	background-color: @colour_background_heading;
+	font-family: @font_family_heading;
+	padding: 5px;
+	border: 2px solid @colour_border_heading;
+	text-shadow: 1px 1px 0 @colour_shadow_heading;
+}
+h2 {
+	color: @colour_text_heading;
+	background-color: @colour_background_heading;
+    font-family: @font_family_heading;
+	padding: 5px;
+	border: 2px solid @colour_border_heading;
+	text-shadow: 1px 1px 0 @colour_shadow_heading;
+}
+h3 {
+	color: @colour_text_heading;
+	background-color: @colour_background_heading;
+    font-family: @font_family_heading;
+	padding: 5px;
+	border: 2px solid @colour_border_heading;
+	text-shadow: 1px 1px 0 @colour_shadow_heading;
+}
+a {
+	color: @colour_text_reference;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	border: 2px solid @colour_border_heading;
+	background-color: @colour_background_content;
+}
+.navbar {
+	background-color: @colour_background_heading;
+    font-family: @font_family_heading;
+	padding: 10px;
+	border-bottom: 2px solid @colour_border_heading;
+	a {
+		margin: 0 15px;
+		font-weight: bold;
+		color: @colour_text_heading;
+	}
+}
+.section {
+	margin: 20px 0;
+	padding: 15px;
+	border: 2px solid @colour_border_heading;
+    background-color: @colour_background_content;
+}
+.image-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	img {
+		width: 150px;
+		height: auto;
+		margin: 10px;
+		border: 2px solid @colour_border_heading;
+	}
+}
+footer {
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid @colour_border_heading;
+	margin-top: 20px;
+	background-color: @colour_background_heading;
+	color: @colour_text_heading;
+}
