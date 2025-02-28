@@ -1,0 +1,9 @@
+<h3>Content Recommendations</h3>
+
+<p>There is so much content out there in the modern day, but here is a very subset of those that have shaped my life or career in some way (or that I just really enjoy, and think you would too).</p>
+
+<p>I do need to add <em>why</em> I recommend them, but they're hopefully self-explanatory until then.</p>
+
+<li *ngFor="let item of contentRecommendations; index as i;">
+        <a href="{{item.url}}" target="__blank">{{item.displayName}}</a>
+</li>

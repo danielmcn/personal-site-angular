@@ -1,0 +1,40 @@
+<main class="main">
+  <div class="navbar">
+    <!--todo: auto-populate based on the components registered-->
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#recommendations">Content Recommendations</a>
+    <a href="#socials">Socials</a>
+    <!--<a href="#volunteering">Volunteering</a>-->
+  </div>
+  
+  <div class="container">
+    <div id="home" class="section">
+      <app-home></app-home>
+    </div>
+    <div id="about" class="section">
+      <app-about></app-about>
+    </div>
+    <div id="certifications" class="section">
+      <app-certifications></app-certifications>
+    </div>
+    <div id="recommendations" class="section">
+      <app-recommendations></app-recommendations>
+    </div>
+    <!--
+    <div id="volunteering" class="section">
+      <app-volunteering></app-volunteering>
+    </div>
+    -->
+    <div id="socials" class="section">
+      <app-socials></app-socials>
+    </div>
+  </div>
+</main>
+
+<footer>
+  &copy; 1997, 2001, 2009-2025 Daniel McNally
+</footer>
+
+<router-outlet />
