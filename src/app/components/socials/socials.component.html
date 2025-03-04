@@ -2,6 +2,8 @@
 
 <p>I try and avoid the social media circus, choosing instead to get my news through aggregators and publishers such <a href="https://hackernoon.com/" target="_blank">HackerNoon</a>, <a href="https://www.theregister.com/" target="_blank">The Register</a>, and <a href="https://www.bleepingcomputer.com/" target="_blank">BleepingComputer</a>, as but if you're curious you can find me in the below places and spaces.</p>
 
-<li *ngFor="let item of socials; index as i;">
-        <a href="{{item.url}}" target="__blank">{{item.displayName}}</a>
-</li>
+<ul>
+        <li *ngFor="let item of socials; index as i;">
+                <a href="{{item.url}}" target="__blank">{{item.displayName}}</a>
+        </li>
+</ul>
