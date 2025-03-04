@@ -18,6 +18,6 @@ export class SocialsComponent {
     new Social('Strava', new URL('https://www.strava.com/athletes/52835605')),
     new Social('Pluralsight', new URL('https://app.pluralsight.com/profile/daniel-mcnally-18')),
     new Social('Goodreads', new URL('https://www.goodreads.com/danielmcnally18')),
-    new Social('Stackshare', new URL('https://stackshare.io/danielmcn/my-stack')),
+    new Social('StackShare', new URL('https://stackshare.io/danielmcn/my-stack')),
   ]
 }
