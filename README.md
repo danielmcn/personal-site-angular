@@ -167,6 +167,12 @@ VS Code is using these extensions:
 - GitHub Copilot Chat
 - markdownlint
 
+## Deployment
+
+This site is currently deployed to an Azure Static Web App using Github Actions. There is a DNS entry manually created on Azure to support the site, with the domain itself hosted by the excellent [Krystal](https://krystal.io/).
+
+I do want to create a full Terraform pipeline that creates the DNS, the SWA host, and publishes the site.
+
 ## AI Prompts used
 
 As part of this project was finally giving in an using AI, here are the prompts used with Copilot at various stages:
